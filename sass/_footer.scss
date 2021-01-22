@@ -1,0 +1,53 @@
+// FOOTER
+
+footer {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    height: 30vh;
+
+    .footlinks {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        display: inline-block;
+        margin: 2% 5%;
+        padding: 1%;
+
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+
+    .footspan {
+        align-content: center;
+        justify-content: center;
+
+        span {
+            color: white;
+            font-family: 'Cinzel', cursive;
+            font-size: 1.25em;
+        }
+    }
+
+
+    .footer-logo {
+        display: block;
+        img {
+            margin: 2vh;
+            height: 5%;
+            width: 5%;
+        }
+}
+
+.copyright span {
+    color: #fff;
+}
+}

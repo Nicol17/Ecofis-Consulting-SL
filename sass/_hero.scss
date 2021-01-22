@@ -1,0 +1,58 @@
+// HERO
+
+#hero {
+    height: 80vh;
+    background: url('../img/undraw_counting_stars_rrnl.svg') no-repeat bottom center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7vw;
+
+    .hero-container {
+
+        h2 {
+            position: relative;
+            bottom: 2.5em;
+            font-size: 2.1rem;
+            text-transform: capitalize;
+            text-align: start;
+            line-height: 150%;
+            margin: 3%;
+            padding: 5%;
+            width: 35%;
+        }
+
+        h4 {
+            position: relative;
+            left: 45%;
+            top: 2.5em;
+            font-size: 1.2rem;
+            line-height: 150%;
+            text-align: end;
+            width: 45%;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #hero {
+        display: block;
+        margin-bottom: 30vh;
+        .hero-container {
+            h2 {
+                width: 90%;
+                position: relative;
+                top: 2em;
+                text-align: center;
+            }
+    
+            h4 {
+                width: 90%;
+                position: relative;
+                left: 2em;
+                top: 18em;
+            }
+        }
+    }
+}

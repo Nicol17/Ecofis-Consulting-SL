@@ -1,0 +1,41 @@
+
+// Atomic Tangerine #ff9966
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rokkitt', serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    list-style: none;
+}
+
+.orange {
+    color: #ff9966;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+// NAVBAR
+@import 'navbar';
+
+// HERO
+@import 'hero';
+
+// FEATURES
+@import 'features';
+
+// CLIENTS
+@import 'clients';
+
+// CONTACT
+@import 'contact';
+
+// FOOTER
+@import 'footer';
