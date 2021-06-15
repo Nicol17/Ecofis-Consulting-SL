@@ -1,18 +1,20 @@
 // FEATURES
 
 #features{
-    margin: 10vh 7vw;
+    margin: 10vh 5vw;
     h4 {
         text-transform: uppercase;
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: 400;
-        margin-bottom: 4%;
+        margin-bottom: 7%;
     }
     .features-container {
         padding: 5% 0;
+        text-align: center;
         .services{
             display: flex;
             align-items: flex-start;
+            justify-content: center;
             line-height: 150%;
             .image {
                 margin: 0;
@@ -31,13 +33,16 @@
                 justify-content: center;
                 align-items: center;
                 padding-right: 10%;
+                font-size: 1.20em;
             }
         }
 
         .process {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            justify-content: center;
             line-height: 150%;
+            margin-top: 5vh;
 
             .image {
                 margin: 0;
@@ -54,6 +59,7 @@
                 text-align: justify;
                 justify-content: center;
                 align-items: flex-end;
+                font-size: 1.25em;
             }
         }
     }

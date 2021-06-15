@@ -6,7 +6,6 @@ footer {
     align-items: center;
     text-align: center;
     background-color: #000;
-    height: 30vh;
 
     .footlinks {
         display: inline-block;
@@ -21,7 +20,7 @@ footer {
 
     }
 
-    a{
+    .footerLink{
         color: #fff;
         text-decoration: none;
         display: block;
@@ -29,7 +28,7 @@ footer {
         transition: .5s ease-in-out;
     }
 
-    a:hover {
+    .footerLink:hover {
         transform: scale(1.5);
         background-color: #fff;
         color: #000;
@@ -53,14 +52,21 @@ footer {
         display: inline-block;
         img {
             margin: 2vh;
-            height: 10vh;
-            width: 10vw;
+            height: 5vh;
+            width: 5vw;
         }
 }
 
-.copyright span {
-    color: #fff;
+.copyright {
+    span {
+        color: #fff;
+    }
+
+    #nicol-link {
+        color: #fff;
+    }
 }
+
 }
 
 @media (max-width: 400px) {
