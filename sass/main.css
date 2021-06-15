@@ -163,20 +163,24 @@ body {
 
 @media (max-width: 400px) {
   #hero {
+    padding: 0;
     display: block;
-    margin-bottom: 30vh;
+    margin-bottom: 37vh;
   }
   #hero .hero-container h2 {
+    font-size: 2rem;
     width: 90%;
     position: relative;
-    top: 2em;
+    top: 2.5em;
     text-align: center;
   }
   #hero .hero-container h4 {
+    font-size: 1.15rem;
+    text-align: center;
     width: 90%;
     position: relative;
-    left: 2em;
-    top: 18em;
+    left: 1em;
+    top: 25em;
   }
 }
 
@@ -275,18 +279,29 @@ body {
 }
 
 @media (max-width: 400px) {
+  #features {
+    margin: 1vh 1vw;
+  }
+  #features h4 {
+    font-size: 1.75rem;
+  }
   #features .features-container .services {
     display: block;
+    padding: 0 3%;
   }
   #features .features-container .services .service-text {
+    font-size: 1.05em;
     width: 100%;
     text-align: center;
+    padding-right: 0;
   }
   #features .features-container .process {
     display: block;
-    margin-top: 5%;
+    margin-top: 8%;
+    padding: 0 3%;
   }
   #features .features-container .process .process-text {
+    font-size: 1.05em;
     width: 100%;
     text-align: center;
   }
@@ -340,7 +355,15 @@ body {
 }
 
 @media (max-width: 400px) {
+  #clients {
+    margin: 5vh 0;
+  }
+  #clients .clients-text h4 {
+    font-size: 1.65rem;
+  }
   #clients .clients-container {
+    width: 90%;
+    margin: 0 auto;
     display: block;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -348,10 +371,11 @@ body {
     text-align: center;
   }
   #clients .clients-container .client {
+    display: block;
+    width: 100%;
     background: #cac9c9;
-    margin: 5%;
+    margin: .75rem 0;
     padding: 5%;
-    width: 80vw;
   }
 }
 
@@ -419,14 +443,29 @@ body {
 }
 
 @media (max-width: 400px) {
+  #contact {
+    margin: 10vh 2vw 4vh 2vw;
+  }
+  #contact h4 {
+    font-size: 1.75rem;
+    margin-bottom: 2vh;
+  }
+  #contact p {
+    font-size: 1.25rem;
+  }
   #contact .contact-container {
     display: block;
+    padding: 0 10%;
+    margin-top: 3vh;
   }
   #contact .contact-container .contact-form {
-    width: 80%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   #contact .contact-container .contact-image {
     text-align: center;
+    margin-top: 5vh;
   }
 }
 
@@ -507,24 +546,22 @@ footer .copyright #nicol-link {
 }
 
 @media (max-width: 400px) {
-  footer {
-    height: 55vh;
-  }
   footer .footer-logo {
     margin: 0;
     padding: 0;
   }
   footer .footer-logo img {
-    height: 15vh;
-    width: 15vw;
+    height: 10vh;
+    width: 10vw;
   }
   footer .footspan {
     padding-bottom: 5%;
   }
   footer .footlinks {
-    height: 20vh;
-    width: 80vw;
     margin: 0 auto;
+  }
+  footer .footlinks ul {
+    text-align: justify;
   }
   footer .footlinks li {
     display: block;

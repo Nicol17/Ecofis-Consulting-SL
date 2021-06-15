@@ -67,19 +67,28 @@
 
 @media (max-width: 400px) {
     #features {
+        margin: 1vh 1vw;
+
+        h4{
+            font-size: 1.75rem;
+        }
         .features-container {
             .services {
                 display: block;
-                
+                padding: 0 3%;
                     .service-text{
+                        font-size: 1.05em;
                         width: 100%;
                         text-align: center;
+                        padding-right: 0;
                     }
             }
             .process {
                 display: block;
-                margin-top: 5%;
+                margin-top: 8%;
+                padding: 0 3%;
                 .process-text {
+                    font-size: 1.05em;
                     width: 100%;
                     text-align: center;
                 }

@@ -40,16 +40,25 @@
 
 @media (max-width: 400px) {
     #clients {
+        margin: 5vh 0;
+        .clients-text {
+            h4 {
+                font-size: 1.65rem;
+            }
+        }
         .clients-container{
+            width: 90%;
+            margin: 0 auto;
             display: block;
             align-items: center;
             text-align: center;
 
             .client {
+                display: block;
+                width: 100%;
                 background: rgb(202, 201, 201);
-                margin: 5%;
+                margin: .75rem 0;
                 padding: 5%;
-                width: 80vw;
             }
         }
     }
