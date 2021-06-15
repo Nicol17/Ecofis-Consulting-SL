@@ -37,21 +37,25 @@
 
 @media (max-width: 400px) {
     #hero {
+        padding: 0;
         display: block;
-        margin-bottom: 30vh;
+        margin-bottom: 37vh;
         .hero-container {
             h2 {
+                font-size: 2rem;
                 width: 90%;
                 position: relative;
-                top: 2em;
+                top: 2.5em;
                 text-align: center;
             }
     
             h4 {
+                font-size: 1.15rem;
+                text-align: center;
                 width: 90%;
                 position: relative;
-                left: 2em;
-                top: 18em;
+                left: 1em;
+                top: 25em;
             }
         }
     }

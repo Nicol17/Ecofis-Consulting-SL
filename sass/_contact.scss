@@ -52,13 +52,29 @@
 
 @media (max-width: 400px) {
     #contact {
+        margin: 10vh 2vw 4vh 2vw;
+        h4{
+            font-size: 1.75rem;
+            margin-bottom: 2vh;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
         .contact-container{
             display: block;
+            padding: 0 10%;
+            margin-top: 3vh;
+            
             .contact-form{
-                width: 80%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                
             }
         .contact-image{
             text-align: center;
+            margin-top: 5vh;
         }
         }
     }
