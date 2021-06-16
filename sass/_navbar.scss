@@ -75,22 +75,50 @@
     .burguer {
         display: none;
     }
+}
 
-    @media (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    .navbar{
+        .navlinks {
+            display: none;
+        }
 
-            .navlinks {
-                display: none;
-            }
-    
-            .logo img {
-                height: 100%;
-                width: 100%;
-            }
-    
-            .span span {
-                font-size: 0.4em;
-                padding: 1.5% 0 0 4%;
-            }
+        .logo img {
+            height: 100%;
+            width: 100%;
+        }
 
+        .span span {
+            font-size: 0.4em;
+            padding: 1.5% 0 0 4%;
+        }
     }
 }
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    .navbar {
+        .logo {
+            display: inline-block;
+            width: 10%;
+            margin-top: 2%;
+        }
+
+        .span {
+            font-size: 2em;
+            padding: 2.5% 0 0 2%;
+            }
+
+        .navlinks {
+            display: none;
+        }
+        
+        
+
+        .logo img {
+            height: 100%;
+            width: 100%;
+            }
+
+        
+        }
+    }
