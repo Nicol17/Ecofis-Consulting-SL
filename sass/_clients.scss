@@ -38,7 +38,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
     #clients {
         margin: 5vh 0;
         .clients-text {
@@ -58,6 +58,34 @@
                 width: 100%;
                 background: rgb(202, 201, 201);
                 margin: .75rem 0;
+                padding: 5%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+    #clients {
+        margin: 5vh 0 3vh 0;
+        .clients-text {
+            h4 {
+                font-size: 2.2rem;
+                margin-bottom: 4vh;
+            }
+        }
+        .clients-container{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            .client {
+                display: block;
+                width: 40%;
+                background: rgb(202, 201, 201);
+                margin: .75rem 1rem;
                 padding: 5%;
             }
         }
